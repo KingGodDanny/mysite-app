@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <!--이름-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="300px"
+            android:layout_height="match_parent"
+            android:text="이름"
+            android:textSize="45px"
+            android:gravity="center|left"
+            />
+
+        <EditText
+            android:layout_width="780px"
+            android:layout_height="match_parent"
+            android:hint="이름을 입력해 주세요."
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+    <!--비밀번호-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:layout_width="300px"
+            android:layout_height="match_parent"
+            android:text="패스워드"
+            android:textSize="45px"
+
+            />
+
+        <EditText
+            android:layout_width="780px"
+            android:layout_height="match_parent"
+            android:hint="패스워드를 입력해 주세요."
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+
+    <!--공백-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="350px"
+            android:inputType="text"
+            />
+
+    </LinearLayout>
+
+    <!--버튼-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="저장"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
