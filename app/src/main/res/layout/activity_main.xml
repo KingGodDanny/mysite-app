@@ -61,7 +61,7 @@
             android:layout_width="780px"
             android:layout_height="match_parent"
             android:hint="패스워드를 입력해 주세요."
-            android:inputType="text"
+            android:inputType="textPassword"
             />
     </LinearLayout>
 
